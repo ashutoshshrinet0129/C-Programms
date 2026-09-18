@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("Enter size of triangle: ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++) // rows
+    {
+        for (int j = 1; j <= i; j++) // columns
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
